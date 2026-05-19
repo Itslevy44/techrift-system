@@ -67,9 +67,6 @@ export default function Portfolio() {
                 <div className="portfolio-card__body">
                   <h3 className="portfolio-card__title">{title}</h3>
                   <p className="portfolio-card__desc">{desc}</p>
-                  <div className="portfolio-card__tech">
-                    {tech.map(t => <span key={t} className="portfolio-tech-tag">{t}</span>)}
-                  </div>
                   <div className="portfolio-card__footer" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Link to="/contact" className="portfolio-card__link">
                       Discuss Similar <ArrowRight size={14} />
