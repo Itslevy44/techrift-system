@@ -1,0 +1,47 @@
+.not-found-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--bg-dark);
+  padding: 120px 0;
+}
+
+.not-found__inner {
+  max-width: 500px;
+}
+
+.not-found__icon {
+  margin-bottom: 24px;
+  animation: float 4s ease-in-out infinite;
+}
+
+.not-found__title {
+  font-family: var(--font-heading);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.not-found__subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.not-found__desc {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+}
+
+.not-found__actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
