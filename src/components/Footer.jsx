@@ -81,7 +81,7 @@ export default function Footer() {
                 <Mail size={16} /> info@techrift.co.ke
               </a>
               <a href="tel:+254700000000" className="footer__contact-item">
-                <Phone size={16} /> +254 700 000 000
+                <Phone size={16} /> +254 748 717 099
               </a>
               <span className="footer__contact-item">
                 <MapPin size={16} /> Nairobi, Kenya
