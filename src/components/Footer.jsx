@@ -77,8 +77,8 @@ export default function Footer() {
               custom software solutions that drive growth and digital transformation.
             </p>
             <div className="footer__contact-list">
-              <a href="mailto:info@techrift.co.ke" className="footer__contact-item">
-                <Mail size={16} /> info@techrift.co.ke
+              <a href="mailto:techriftsoftware@gmail.com" className="footer__contact-item">
+                <Mail size={16} /> techriftsoftware@gmail.com
               </a>
               <a href="tel:+254700000000" className="footer__contact-item">
                 <Phone size={16} /> +254 748 717 099
