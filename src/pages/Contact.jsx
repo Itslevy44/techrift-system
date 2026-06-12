@@ -4,9 +4,9 @@ import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from 'lucide-react'
 import './Contact.css'
 
 const contactInfo = [
-  { icon: Mail, title: 'Email Us', value: 'info@techrift.co.ke', href: 'mailto:info@techrift.co.ke' },
-  { icon: Phone, title: 'Call Us', value: '+254 700 000 000', href: 'tel:+254700000000' },
-  { icon: MapPin, title: 'Visit Us', value: 'Westlands, Nairobi, Kenya', href: '#' },
+  { icon: Mail, title: 'Email Us', value: 'tehriftsoftware@gmail.com', href: 'techriftsoftware@gmal.com' },
+  { icon: Phone, title: 'Call Us', value: '+254 748 717 099', href: 'tel:+254748717099' },
+  { icon: MapPin, title: 'Visit Us', value: 'Nakuru, Kenya', href: '#' },
   { icon: Clock, title: 'Business Hours', value: 'Mon–Fri: 8:00 AM – 6:00 PM', href: null },
 ]
 
@@ -97,7 +97,7 @@ ${form.message}`
             <div className="contact-map">
               <div className="contact-map__inner">
                 <MapPin size={32} color="var(--accent)" />
-                <p>Westlands, Nairobi</p>
+                <p>Nakuru</p>
                 <span>Kenya</span>
               </div>
             </div>
