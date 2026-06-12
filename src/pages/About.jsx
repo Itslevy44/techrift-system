@@ -37,15 +37,15 @@ export default function About() {
             <div className="story-text">
               <span className="badge">Our Story</span>
               <h2 className="story-title">Built by Developers, <span className="gradient-text">for Businesses</span></h2>
-              <p>Techrift Software Solutions was founded in Nairobi in 2019 by a group of passionate software engineers who saw a gap: Kenyan businesses deserved world-class custom software without the world-class price tag of international firms.</p>
+              <p>Techrift Software Solutions was founded in Nakuru in 2024 by a group of passionate software engineers who saw a gap: Kenyan businesses deserved world-class custom software without the world-class price tag of international firms.</p>
               <p>From our first small web project to deploying complex enterprise ERP systems for major organizations, we have stayed true to our founding principle — <strong>technology should empower businesses, not burden them.</strong></p>
               <p>Today, with 80+ clients across East Africa and a team of 20+ specialists, we are proud to be one of Kenya's fastest-growing software companies.</p>
               <div className="story-stats">
                 {[
-                  { value: '5+', label: 'Years in Business' },
+                  { value: '3+', label: 'Years in Business' },
                   { value: '20+', label: 'Team Members' },
-                  { value: '80+', label: 'Clients Served' },
-                  { value: '150+', label: 'Projects Done' },
+                  { value: '30+', label: 'Clients Served' },
+                  { value: '30+', label: 'Projects Done' },
                 ].map(({ value, label }) => (
                   <div key={label} className="story-stat">
                     <div className="story-stat__val">{value}</div>
@@ -59,7 +59,7 @@ export default function About() {
                 <CheckCircle size={24} color="var(--accent)" />
                 <div>
                   <div className="sc-title">Our Mission</div>
-                  <div className="sc-text">Empower businesses with software that drives real growth and efficiency.</div>
+                  <div className="sc-text">Building Tomorrow's Digital Solutions.</div>
                 </div>
               </div>
               <div className="story-card story-card-2">
@@ -70,7 +70,7 @@ export default function About() {
                 </div>
               </div>
               <div className="story-badge">
-                <div className="sb-val">150+</div>
+                <div className="sb-val">30+</div>
                 <div className="sb-label">Projects Delivered</div>
               </div>
             </div>
