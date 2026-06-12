@@ -84,7 +84,7 @@ export default function Footer() {
                 <Phone size={16} /> +254 748 717 099
               </a>
               <span className="footer__contact-item">
-                <MapPin size={16} /> Nairobi, Kenya
+                <MapPin size={16} /> Nakuru, Kenya
               </span>
             </div>
             <div className="footer__socials">

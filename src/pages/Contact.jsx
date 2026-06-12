@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from 'lucide-react'
 import './Contact.css'
 
 const contactInfo = [
-  { icon: Mail, title: 'Email Us', value: 'tehriftsoftware@gmail.com', href: 'techriftsoftware@gmal.com' },
+  { icon: Mail, title: 'Email Us', value: 'techriftsoftware@gmail.com', href: 'techriftsoftware@gmal.com' },
   { icon: Phone, title: 'Call Us', value: '+254 748 717 099', href: 'tel:+254748717099' },
   { icon: MapPin, title: 'Visit Us', value: 'Nakuru, Kenya', href: '#' },
   { icon: Clock, title: 'Business Hours', value: 'Mon–Fri: 8:00 AM – 6:00 PM', href: null },
